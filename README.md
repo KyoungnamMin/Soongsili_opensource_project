@@ -1,5 +1,7 @@
 ### Chat Bot Project
 
+#### 작업 전 Pull 필수!!
+
 #### Commit
 - 새로운 작업 파일 commit할 때, 연관 폴더 생성 후 넣어주세요.
 - pull request 하고 연락해주시면 빠르게 확인 가능합니다.
