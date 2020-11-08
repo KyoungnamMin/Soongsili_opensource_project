@@ -11,7 +11,6 @@ from PyQt5.QtCore import *
 from PyQt5.QAxContainer import *
 
 def __init__():
-
     options = webdriver.ChromeOptions()
     options.add_argument('window-size=1920x1080')
     options.add_argument("disable-gpu")
@@ -23,8 +22,8 @@ def __init__():
     driver.implicitly_wait(3)
 
     driver.find_element_by_id('goto-login').click()
-    driver.find_element_by_id('userid').send_keys('20162564')
-    driver.find_element_by_id('password').send_keys('Go970110go!')
+    #driver.find_element_by_id('userid').send_keys('input your id')
+    #driver.find_element_by_id('password').send_keys('input your password')
     driver.find_element_by_xpath("/html/body/div[1]/div[3]/div[2]/div[1]/form/div[3]/button").click()
     time.sleep(5)
     
