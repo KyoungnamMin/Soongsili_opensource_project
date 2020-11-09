@@ -5,10 +5,6 @@ import time
 import smtplib
 from email.mime.text import MIMEText
 import sys
-from PyQt5.QtWidgets import *
-from PyQt5.QtGui import *
-from PyQt5.QtCore import *
-from PyQt5.QAxContainer import *
 
 def __init__():
     options = webdriver.ChromeOptions()
@@ -16,14 +12,14 @@ def __init__():
     options.add_argument("disable-gpu")
     options.add_argument("lang=ko_KR")
 
-    driver = webdriver.Chrome(r'C:\Users\Owner\Desktop\Crawling_Project\sss\chromedriver', chrome_options=options)
+    #driver = webdriver.Chrome(r'input your chromedriver PATH', chrome_options=options)
     driver.implicitly_wait(3)
     driver.get('https://oasis.ssu.ac.kr/#/')
     driver.implicitly_wait(3)
 
     driver.find_element_by_id('goto-login').click()
-    #driver.find_element_by_id('userid').send_keys('input your id')
-    #driver.find_element_by_id('password').send_keys('input your password')
+    #driver.find_element_by_id('userid').send_keys('input your ID')
+    #driver.find_element_by_id('password').send_keys('input your PW')
     driver.find_element_by_xpath("/html/body/div[1]/div[3]/div[2]/div[1]/form/div[3]/button").click()
     time.sleep(5)
     
