@@ -119,8 +119,8 @@ def notice_func():
                         "type": "basicCard",
                         "items": [
                             {
-                                "title": "공지사항",
-                                "description": answer_cal[0],
+                                "title": answer_cal[0],
+                                "description": "",
                                 "thumbnail": {
                                     "imageUrl": "http://k.kakaocdn.net/dn/83BvP/bl20duRC1Q1/lj3JUcmrzC53YIjNDkqbWK/i_6piz1p.jpg"
                                 },
@@ -138,8 +138,8 @@ def notice_func():
                                 ],
                             },
                             {
-                                "title": "공지사항",
-                                "description": answer_cal[1],
+                                "title": answer_cal[1],
+                                "description": "",
                                 "thumbnail": {
                                     "imageUrl": "http://k.kakaocdn.net/dn/83BvP/bl20duRC1Q1/lj3JUcmrzC53YIjNDkqbWK/i_6piz1p.jpg"
                                 },
@@ -157,8 +157,8 @@ def notice_func():
                                 ]
                             },
                             {
-                                "title": "공지사항",
-                                "description": answer_cal[2],
+                                "title": answer_cal[2],
+                                "description": "",
                                 "thumbnail": {
                                     "imageUrl": "http://k.kakaocdn.net/dn/83BvP/bl20duRC1Q1/lj3JUcmrzC53YIjNDkqbWK/i_6piz1p.jpg"
                                 },
