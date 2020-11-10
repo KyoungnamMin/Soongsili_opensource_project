@@ -1,4 +1,4 @@
-### Chat Bot Project
+### Soongsil Chat Bot Project
 
 #### 작업 전 Pull 필수!
 
