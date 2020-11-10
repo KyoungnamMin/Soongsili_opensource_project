@@ -1,7 +1,8 @@
 import urllib.request
-import requests
 from bs4 import BeautifulSoup
 import csv
+
+
 
 @app.route('/funsystem', methods=['GET', 'POST'])
 def funsystem_func():
