@@ -27,7 +27,7 @@ def library_func():
             total_.append(d[i]['activeTotal'])
             occ_.append(d[i]['occupied'])
             avail_.append(d[i]['available'])
-
+    # Do not Output Media Room available
     res = {
         "version": "2.0",
         "template": {
@@ -35,7 +35,7 @@ def library_func():
                 {
                     "listCard": {
                         "header": {
-                            "title": "숭실대 도서관 이용률"
+                            "title": "숭실대 열람실 이용률"
                         },
                         "items": [
                             {
@@ -57,10 +57,6 @@ def library_func():
                             {
                               "title": name_[4],
                               "description": "잔여 좌석 수: " + str(avail_[4])
-                            },
-                            {
-                              "title": name_[5],
-                              "description": "잔여 좌석 수: " + str(avail_[5])
                             }
                         ]
                     }
@@ -71,11 +67,6 @@ def library_func():
                     'label': '🏠',
                     'action': 'message',
                     'messageText': '🏠'
-                },
-                {
-                    'label': '사용법',
-                    'action': 'message',
-                    'messageText': '사용법'
                 }
             ]
         }
@@ -151,21 +142,21 @@ def food_func():
         
     return jsonify(res)'''
 
+
 @app.route('/funsystem', methods=['GET', 'POST'])
 def funsystem_func():
-    req = request.get_json()
     url = "https://fun.ssu.ac.kr/ko/program/all/list/all/{}"
     res = requests.get(url)
     res.raise_for_status()
 
     soup = BeautifulSoup(res.text, "lxml")
     base_url = "https://fun.ssu.ac.kr/"
-    
+
     funsystems = soup.find("ul", attrs={"class": "columns-4"}).find_all("li")
     answer_cal = []
     answer_link = []
-    answer_img = []
-    
+    #answer_img = []
+
     for funsystem in funsystems:
         calums = funsystem.find("b", attrs={"class": "title"})
         link = base_url + funsystem.a["href"]
@@ -249,11 +240,6 @@ def funsystem_func():
                     'label': '🏠',
                     'action': 'message',
                     'messageText': '🏠'
-                },
-                {
-                    'label': '사용법',
-                    'action': 'message',
-                    'messageText': '사용법'
                 }
             ]
         }
@@ -262,7 +248,6 @@ def funsystem_func():
     return jsonify(res)
 
 
-#NOTICE
 @app.route('/notice', methods=['GET', 'POST'])
 def notice_func():
     req = request.get_json()
@@ -273,11 +258,11 @@ def notice_func():
 
     soup = BeautifulSoup(res.text)
 
-    notices = soup.find_all("a", attrs = {"class": "text-decoration-none d-block text-truncate"})
+    notices = soup.find_all("a", attrs={"class": "text-decoration-none d-block text-truncate"})
     answer_cal = []
     answer_link = []
     for n in notices:
-        calums = n.find("span", attrs = {"class" : "d-inline-blcok m-pt-5"})
+        calums = n.find("span", attrs={"class": "d-inline-blcok m-pt-5"})
         link = "https://scatch.ssu.ac.kr/" + n["href"]
         answer_cal.append(calums.text)
         answer_link.append(link)
@@ -356,11 +341,6 @@ def notice_func():
                     'label': '🏠',
                     'action': 'message',
                     'messageText': '🏠'
-                },
-                {
-                    'label': '사용법',
-                    'action': 'message',
-                    'messageText': '사용법'
                 }
             ]
         }
