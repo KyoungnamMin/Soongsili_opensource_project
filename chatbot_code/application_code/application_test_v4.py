@@ -26,8 +26,9 @@ def library_func():
     driver.get('https://oasis.ssu.ac.kr/#/')
 
     driver.find_element_by_id('goto-login').click()
-    driver.find_element_by_id('userid').send_keys('20162564')
-    driver.find_element_by_id('password').send_keys('Go970110go!')
+    #input your ID, PW
+    driver.find_element_by_id('userid').send_keys('####################')
+    driver.find_element_by_id('password').send_keys('####################')
     driver.find_element_by_xpath("/html/body/div[1]/div[3]/div[2]/div[1]/form/div[3]/button").click()
     driver.implicitly_wait(3)
 
