@@ -10,8 +10,13 @@
 ### 개발 진행 상황
 - Chat Bot Entity .csv로 작성 -> (완료)
 - Web Site Crawling Data .csv로 작성 -> (완료)
+
 - Kakao i OpenBuilder 테스트 Skill 생성 및 서버 통신 -> (완료)
-- Entity .csv -> Kakao i OpenBuilder 블록 적용 -> (진행 중)
+- Entity .csv -> Kakao i OpenBuilder 블록 적용 -> (완료)
+- 각 시나리오 별 블록 구분 및 발화 패턴 등록 -> (완료)
+- 웰컴 블록, 폴백 블록, 홈 버튼, 사용법 -> (완료)
+- 학사정보, 학과정보 csv 적용 -> (완료)
+
 - 각 Entity에 맞춘 Crawling 코드 작성 -> (완료)
   - 동적 사이트 크롤링 Flask에서 테스트 -> (완료)
   - 공지사항, 펀시스템, 도서관 기능 -> (완료)
