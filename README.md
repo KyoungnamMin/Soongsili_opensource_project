@@ -42,12 +42,20 @@
 ### 설치 및 사용 메뉴얼
 - 카카오톡에서 '숭실이' 추가하기
 
-![1](https://user-images.githubusercontent.com/61671097/101186777-e29f0a00-3696-11eb-9209-be2f3fdeb54b.PNG)
+![1](https://user-images.githubusercontent.com/61671097/101237869-75838700-371f-11eb-8f46-624338202850.PNG)
+
     - 카카오톡 메인 화면 우측 상단의 돋보기 버튼을 클릭한다.
+
+![2](https://user-images.githubusercontent.com/61671097/101237871-761c1d80-371f-11eb-9585-0b6a8aedd1b8.PNG)
+
     - 검색창에 '숭실이'를 검색한다.
+
     - '채팅하기'를 눌러 '숭실이'와 대화를 시작한다.
 
-![3](https://user-images.githubusercontent.com/61671097/101186781-e3d03700-3696-11eb-94a1-ef91c9fad6d7.PNG)
+![3](https://user-images.githubusercontent.com/61671097/101237872-76b4b400-371f-11eb-9d49-c7f386ff004c.PNG)
+
+
+
 
 
 
