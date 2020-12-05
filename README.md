@@ -109,27 +109,19 @@
 ### 프로젝트 제작에 참고한 참고문헌, URL
 
 - *[카카오 i 오픈 빌더 챗봇] 컨텍스트 사용하기. (2020.11.04). URL.*
-
-<http://www.mark1001.com/%EC%B9%B4%EC%B9%B4%EC%98%A4-i-%EC%98%A4%ED%94%88%EB%B9%8C%EB%8D%94-%EC%B1%97%EB%B4%87-%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0-2/>
+    - <http://www.mark1001.com/%EC%B9%B4%EC%B9%B4%EC%98%A4-i-%EC%98%A4%ED%94%88%EB%B9%8C%EB%8D%94-%EC%B1%97%EB%B4%87-%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0-2/>
 
 - *[Flask/ChatBot] 카카오톡 챗봇 만들기. (2020.11.04). URL.*
-
-<https://has3ong.tistory.com/301?category=831354>
+    - <https://has3ong.tistory.com/301?category=831354>
 
 - *카카오 I 오픈빌더 도움말. (2020.11.06). URL.*
-
-<https://i.kakao.com/docs/tutorial-chatbot-useful-tips#%EB%B4%87-%EC%A0%9C%EC%9E%91-%EC%A4%80%EB%B9%84%EB%B6%80%ED%84%B0-%EA%B0%9C%EB%B0%9C-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EA%B3%A0%EB%8F%84%ED%99%94%EA%B9%8C%EC%A7%80%EC%9D%98-%EC%97%AC%EC%A0%95>
+    - <https://i.kakao.com/docs/tutorial-chatbot-useful-tips#%EB%B4%87-%EC%A0%9C%EC%9E%91-%EC%A4%80%EB%B9%84%EB%B6%80%ED%84%B0-%EA%B0%9C%EB%B0%9C-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EA%B3%A0%EB%8F%84%ED%99%94%EA%B9%8C%EC%A7%80%EC%9D%98-%EC%97%AC%EC%A0%95>
 
 - *smusmu 상명대학생을 위한 카카오톡 챗봇. Github.*
-
-<https://github.com/NOTA2/smusmu>
+    - <https://github.com/NOTA2/smusmu>
 
 - *requests와 BeautifulSoup으로 웹 크롤러 만들기. (2020.11.11.). URL.*
-
-<https://beomi.github.io/gb-crawling/posts/2017-01-20-HowToMakeWebCrawler.html>
+    - <https://beomi.github.io/gb-crawling/posts/2017-01-20-HowToMakeWebCrawler.html>
 
 - *파이썬 코딩 무료 강의 (활용편3)[나도코딩]. (2020.08.07). [Youtube].*
-
-<https://youtu.be/yQ20jZwDjTE>
-
-
+    - <https://youtu.be/yQ20jZwDjTE>
