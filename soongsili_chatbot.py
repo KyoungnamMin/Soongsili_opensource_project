@@ -26,6 +26,29 @@ def food_func():
     user_menu = user_menu['block']
     user_menu = user_menu['name']
     
+    if(date.today().weekday() + 1 == 6 or date.today().weekday() + 1 == 7):
+        res = {
+            "version": "2.0",
+            "template": {
+                "outputs": [
+                    {
+                        "simpleText": {
+                            "text": "주말은 식단을 제공하지 않습니다!"
+                        }
+                    }
+                ],
+                'quickReplies': [
+                    {
+                        'label': '🏠',
+                        'action': 'message',
+                        'messageText': '🏠'
+                    }
+                ]
+            }
+        }
+        return jsonify(res)
+    
+    
     #url = "https://soongguri.com/main.php?mkey=2&w=3&l=1"
     #res = requests.get(url)
     #soup = BeautifulSoup(res.content.decode('utf-8', 'replace'), "html.parser")
