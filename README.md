@@ -45,8 +45,8 @@
 ![1](https://user-images.githubusercontent.com/61671097/101186777-e29f0a00-3696-11eb-9209-be2f3fdeb54b.PNG)
 
     - 검색창에 '숭실이'를 검색한다.
-
     - '채팅하기'를 눌러 '숭실이'와 대화를 시작한다.
+    
 ![3](https://user-images.githubusercontent.com/61671097/101186781-e3d03700-3696-11eb-94a1-ef91c9fad6d7.PNG)
 
 
