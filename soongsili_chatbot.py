@@ -76,7 +76,7 @@ def food_func():
         dd = ""
         for d in dodam_launch_route_3[rr].children:
             dd = str(d)
-        if dd == "<strong><br/></strong>" or "<font><br/></font>" in dd or rr > 10:
+        if dd == '<b><font color="#009900"><br/></font></b>' or '<b><font color="#ff3300"><br/></font></b>' in dd or rr > 10:
             break
         dodam_launch += dodam_launch_route_3[rr].get_text()
         if "<br/>" in dd:
@@ -93,7 +93,7 @@ def food_func():
         dd = ""
         for d in dodam_dinner_route_3[rr].children:
             dd = str(d)
-        if dd == "<strong><br/></strong>" or '<b><font color="#009900"><br/></font></b>' in dd or rr > 10:
+        if dd == '<span style="font-size: 12.53px;"><b><br/></b></span>' or '<b><font color="#996600"><br/></font></b>' in dd or rr > 10:
             break
         dodam_dinner += dodam_dinner_route_3[rr].get_text()
         if "<br/>" in dd:
@@ -370,7 +370,7 @@ def notice_func():
                                 "title": answer_cal[0],
                                 "description": "",
                                 "thumbnail": {
-                                    "imageUrl": "http://k.kakaocdn.net/dn/83BvP/bl20duRC1Q1/lj3JUcmrzC53YIjNDkqbWK/i_6piz1p.jpg"
+                                    "imageUrl": "https://ssu.ac.kr/wp-content/uploads/2019/04/cymbal_mark.png"
                                 },
                                 "buttons": [
                                     {
@@ -389,7 +389,7 @@ def notice_func():
                                 "title": answer_cal[1],
                                 "description": "",
                                 "thumbnail": {
-                                    "imageUrl": "http://k.kakaocdn.net/dn/83BvP/bl20duRC1Q1/lj3JUcmrzC53YIjNDkqbWK/i_6piz1p.jpg"
+                                    "imageUrl": "https://ssu.ac.kr/wp-content/uploads/2019/04/cymbal_mark.png"
                                 },
                                 "buttons": [
                                     {
@@ -408,7 +408,7 @@ def notice_func():
                                 "title": answer_cal[2],
                                 "description": "",
                                 "thumbnail": {
-                                    "imageUrl": "http://k.kakaocdn.net/dn/83BvP/bl20duRC1Q1/lj3JUcmrzC53YIjNDkqbWK/i_6piz1p.jpg"
+                                    "imageUrl": "https://ssu.ac.kr/wp-content/uploads/2019/04/cymbal_mark.png"
                                 },
                                 "buttons": [
                                     {
